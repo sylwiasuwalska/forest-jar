@@ -1,0 +1,19 @@
+@use 'styles/variables';
+
+.container {
+  text-align: center;
+
+}
+
+.jar {
+  height: 80px;
+  width: 80px;
+}
+
+.plant {
+  position: relative;
+  left: -65px;
+  top: -5px;
+  height: 45px;
+  fill: variables.$primary-color;
+}

@@ -1,0 +1,49 @@
+@use 'styles/variables';
+
+.mainHeader {
+  color: variables.$primary-color;
+
+}
+
+.headerImage {
+  border-bottom: 1px solid variables.$primary-color !important;
+  padding-bottom: 2% !important;
+
+}
+
+.headerTitle {
+  position: relative;
+  top: -550px;
+  left: 50px;
+
+  & h1 {
+    margin: 0;
+    padding-left: 2%;
+    font-size: 26rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+
+  & h2 {
+    position: relative;
+    top: 80px;
+    margin: 0;
+    padding-left: 2%;
+    font-size: 12rem;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  .headerTitle {
+
+    top: -400px;
+
+
+    & h1 {
+      font-size: 18rem;
+    }
+
+    & h2 {
+      top: 60px;
+    }
+  }
+}

@@ -35,3 +35,4 @@ yarn-error.log*
 /UsersSylwia~1AppDataRoamingnpm-cache/
 .idea/
 tsconfig.json
+/next-env.d.ts
